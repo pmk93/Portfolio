@@ -1,0 +1,44 @@
+.footer {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid #ddd; /* Border for a clean separation */
+}
+
+.footerContent {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.footerLogos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+}
+
+.footerAttribution {
+    font-size: 14px;
+    color: #666; /* Light gray for attribution text */
+}
+
+.footerAttribution a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+.footerAttribution a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+}

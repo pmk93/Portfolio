@@ -1,0 +1,42 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html5.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javaScript.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typeScript.png"
+  },
+  {
+    "title": "React.JS",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Redux.JS",
+    "imageSrc": "skills/redux.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "Spring boot",
+    "imageSrc": "skills/springBoot.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgreSql.png"
+  }
+]

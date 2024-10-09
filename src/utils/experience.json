@@ -1,0 +1,30 @@
+[{
+          "title": "Senior Associate - Technology",
+          "organisation": "Synechron",
+          "startDate": "Sept, 2023",
+          "endDate": "Present",
+          "description": ["Working on a banking application as a full stack developer. Developing end to end features related to customer onboarding"],
+          "imageSrc": "experience/synechronlogo.png"
+
+},
+{
+    "title": "Software Engineer",
+    "organisation": "Raja Software Labs",
+    "startDate": "May, 2021",
+    "endDate": "September 2023",
+    "description": ["Worked on a social media web application. Developed end to end features. Helped with Code reviews."],
+    "imageSrc": "experience/RajaSoftwareLabsLogo.png"
+
+},
+{
+    "title": "Engineer",
+    "organisation": "Egain Corporation",
+    "startDate": "December, 2019",
+    "endDate": "May 2021",
+    "description": ["Assisted development teams in fixing accessibility-related tickets using React.js, ensured a seamless user experience",
+"• Written test cases using JUnit and Jest frameworks, contributed to the overall quality of software solutions",
+"• Utilized Jira for bug reporting and tracking, Confluence for documentation, and SVN and Git for version control",
+"• Conducted performance testing to assess the application's responsiveness, scalability, and stability under different conditions"],
+"imageSrc": "experience/egainLogo.png"
+
+}]

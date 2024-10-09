@@ -1,0 +1,134 @@
+@import "../../vars.css";
+
+/* .navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 61px;
+    z-index: 2;
+    margin: 0 10%;
+    gap: 47px;
+} */
+.navbar {
+    position: fixed; /* Stick to the top of the viewport */
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px; /* Adjust as needed */
+    z-index: 2;
+    margin: 0 10%;
+    gap: 47px;
+    background-color: white;
+}
+
+/* Rest of your CSS */
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+    font-family: "allison";
+}
+
+.menu {
+    display: flex;
+}
+
+.menuItems {
+    display: flex;
+    gap: 47px;
+    list-style: none;
+}
+
+.menuItem {
+    transition: color 0.3s ease, color 0.3s ease;
+}
+
+.menuItem:hover {
+    color: grey;
+   }
+
+.menuItems a {
+    font-size: 25px;
+    color: var(--color-text);
+    text-decoration: none;
+    }
+.menuBtn {
+    display: none;
+}
+.resumeBtn {
+    display: block;
+    gap: 47px;
+    cursor: pointer;
+}
+
+.resumeBtnExt {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.resumeBtnExt:hover {
+    opacity: 0.8; 
+}
+
+@keyframes colorChange {
+    0% {
+        filter: brightness(0) contrast(0%) sepia(0%); /* Black */
+    }
+    100% {
+        filter: grayscale(100%) brightness(90%) contrast(75%) sepia(60%); /* Zinc-like */
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+    .resumeBtnExt {
+        display: none;
+    }
+    
+
+}
+@media screen and (max-width:900px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 11px;
+        z-index: 3;
+    }
+
+    .menuBtn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menuItems {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        background-color: white;
+        /* background: rgb(25, 55, 109);
+        background: linear-gradient(0deg, rgba(25,55,109, 0.2) 0%, rgba(25, 55, 109, 1) 100%); */
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25) ;
+    }
+
+    .menuOpen {
+        display: flex;
+        z-index: 1;
+    }
+}
